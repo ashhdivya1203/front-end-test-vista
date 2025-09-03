@@ -1,16 +1,44 @@
-# front_end_vista
+# Frontend - Vista Technical Test
 
-A new Flutter project.
+## 🚀 Setup Instructions
 
-## Getting Started
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ashhdivya1203/front-end-test-vista.git
+   cd front_end_vista
 
-This project is a starting point for a Flutter application.
+2. Install dependencies
 
-A few resources to get you started if this is your first Flutter project:
+flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Run the app (web)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter run -d chrome
+
+⚠️ Make sure the backend is running at http://localhost:4000
+
+
+
+📱 Features
+
+-Company list (companies + services)
+
+-Create Company (name + registration number)
+
+-Create Service (name, description, price, company dropdown)
+
+-API integration with backend
+
+-State management with Provider
+
+-Responsive layout (runs smoothly on web)
+
+
+
+🛠 Tech Stack
+
+-Flutter (Dart)
+
+-Provider – state management
+
+-http – API calls
